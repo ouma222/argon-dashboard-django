@@ -1,9 +1,10 @@
-<nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+<nav class="sidenav navbar navbar-vertical fixed-left navbar-expand-xs navbar-light" style="background-color: #f5f1e1;" id="sidenav-main">
   <div class="scrollbar-inner">
     <!-- Brand -->
-    <div class="sidenav-header  align-items-center">
-      <a class="navbar-brand" href="/">
-        <img src="/static/assets/img/brand/blue.png" class="navbar-brand-img" alt="Argon Design - Jinja Template Logo.">
+    <div class="sidenav-header align-items-center">
+
+        <a class="navbar-brand" href="/" style="font-weight: bold; font-size: 1.2rem; color: #7a5a2a;">
+  Élevage de Poules
       </a>
     </div>
     <div class="navbar-inner">
@@ -13,86 +14,79 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link {% if 'index' in segment %} active {% endif %}" href="/">
-              <i class="ni ni-tv-2 text-primary"></i>
-              <span class="nav-link-text">Dashboard</span>
+              <i class="ni ni-tv-2" style="color: #a35d27;"></i>
+              <span class="nav-link-text">Tableau de bord</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link {% if 'icons' in segment %} active {% endif %}" href="/icons.html">
-              <i class="ni ni-planet text-orange"></i>
-              <span class="nav-link-text">Icons</span>
+              <i class="ni ni-planet" style="color: #d49f50;"></i>
+              <span class="nav-link-text">Icônes</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link {% if 'map' in segment %} active {% endif %}" href="/map.html">
-              <i class="ni ni-pin-3 text-primary"></i>
-              <span class="nav-link-text">Google</span>
+              <i class="ni ni-pin-3" style="color: #7a5a2a;"></i>
+              <span class="nav-link-text">Localisation</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link {% if 'profile' in segment %} active {% endif %}" href="/profile.html">
-              <i class="ni ni-single-02 text-yellow"></i>
-              <span class="nav-link-text">Profile</span>
+              <i class="ni ni-single-02" style="color: #cfa941;"></i>
+              <span class="nav-link-text">Profil</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link {% if 'tables' in segment %} active {% endif %}" href="/tables.html">
-              <i class="ni ni-bullet-list-67 text-default"></i>
-              <span class="nav-link-text">Tables</span>
+              <i class="ni ni-bullet-list-67" style="color: #795548;"></i>
+              <span class="nav-link-text">Tableaux</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/login.html">
-              <i class="ni ni-key-25 text-info"></i>
-              <span class="nav-link-text">Login (template)</span>
+              <i class="ni ni-key-25" style="color: #6b705c;"></i>
+              <span class="nav-link-text">Connexion</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/register.html">
-              <i class="ni ni-circle-08 text-pink"></i>
-              <span class="nav-link-text">Register (template)</span>
+              <i class="ni ni-circle-08" style="color: #aa7e47;"></i>
+              <span class="nav-link-text">Inscription</span>
             </a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="{% url 'logout' %}">
-              <i class="ni ni-user-run text-red"></i>
-              <span class="nav-link-text">Logout</span>
+              <i class="ni ni-user-run" style="color: #b02a2a;"></i>
+              <span class="nav-link-text">Déconnexion</span>
             </a>
-          </li>            
+          </li>
         </ul>
+
         <!-- Divider -->
-        <hr class="my-3">
+        <hr class="my-3" style="border-top: 1px solid #bfa97a;">
+
         <!-- Heading -->
         <h6 class="navbar-heading p-0 text-muted">
-          <span class="docs-normal">Resources</span>
+          <span class="docs-normal">Ressources</span>
         </h6>
+
         <!-- Navigation -->
         <ul class="navbar-nav mb-md-3">
-
           <li class="nav-item">
-            <a class="nav-link" 
-               target="_blank" 
-               href="https://appseed.us/admin-dashboards/django-dashboard-argon">
-              <i class="ni ni-archive-2"></i>
-              <span class="nav-link-text">Product Page</span>
+            <a class="nav-link" target="_blank" href="https://appseed.us/admin-dashboards/django-dashboard-argon">
+              <i class="ni ni-archive-2" style="color: #5e503f;"></i>
+              <span class="nav-link-text">Page produit</span>
             </a>
           </li>
-
           <li class="nav-item">
-            <a class="nav-link" 
-               target="_blank" 
-               href="https://appseed.us/admin-dashboards/django-dashboard-argon-pro">
-              <i class="ni ni-spaceship text-red"></i>
-              <span class="nav-link-text text-red">PRO Version</span>
+            <a class="nav-link" target="_blank" href="https://appseed.us/admin-dashboards/django-dashboard-argon-pro">
+              <i class="ni ni-spaceship" style="color: #aa4a44;"></i>
+              <span class="nav-link-text">Version PRO</span>
             </a>
           </li>
-
           <li class="nav-item">
-            <a class="nav-link active active-pro" 
-               target="_blank" 
-               href="http://appseed.us">
-              <i class="ni ni-send text-dark"></i>
+            <a class="nav-link active active-pro" target="_blank" href="http://appseed.us">
+              <i class="ni ni-send" style="color: #4e342e;"></i>
               <span class="nav-link-text">AppSeed</span>
             </a>
           </li>
